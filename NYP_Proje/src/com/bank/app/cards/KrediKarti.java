@@ -17,7 +17,7 @@ public class KrediKarti {
         java.util.Random rnd = new java.util.Random();
         //4 yerine 1-9 arası rastgele bir ilk hane üretiyoruz
         StringBuilder sb = new StringBuilder(String.valueOf(rnd.nextInt(9) + 1)); 
-        // İlk hane yukarıda üretildiği için döngü senin yazdığın gibi yine 1'den başlıyor
+        // İlk hane yukarıda üretildiği için döngü 1'den başlıyor
         for (int i = 1; i < 16; i++) {
             if (i % 4 == 0) { 
                 sb.append(" "); // 4-4-4-4 formatı için aralara boşluk
